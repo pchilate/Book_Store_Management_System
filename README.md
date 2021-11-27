@@ -18,6 +18,9 @@ functionalities:----- 1. Create Account
                       14. Genrate OrderID
                       15. username validation
                       16. password validation
+                      17. myaccount
+                      18. show my cart
+                      
                       
                       
 Database :----------- 1. Project
@@ -42,5 +45,8 @@ Packages and Module: -------- 1. mysql.connector
                               3. random
                               4. string
                               5. datetime
+ 
+ User defined module: ------- 1. databaseconnection
+                              2. Bookstore
                               
                       
