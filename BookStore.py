@@ -580,7 +580,7 @@ def CancelOrder(username):
 
 def MaxSoldBooks():
     mycursor.execute(
-        "select * from books where sold_quantity = (select max(sold_quantity) from books)")
+        "select book_id,book_name,Author_name,catagory,language,formats_edition,rating,seller,price,stock_quantity,max(sold_quantity) from books group by catagory;")
     result = mycursor.fetchall()
     for i in result:
         print("******* THIS BOOK IS MAXIMUM SOLD OUT *******\n")
@@ -602,7 +602,7 @@ def MaxSoldBooks():
 
 def MinSoldBooks():
     mycursor.execute(
-        "select * from books where sold_quantity = (select min(sold_quantity) from books)")
+        "select book_id,book_name,Author_name,catagory,language,formats_edition,rating,seller,price,stock_quantity,min(sold_quantity) from books group by catagory;")
     result = mycursor.fetchall()
     for i in result:
         print("******* THIS BOOK IS MINMUM SOLD OUT *******\n")
