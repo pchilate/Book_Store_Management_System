@@ -1,0 +1,5 @@
+1. There are few typos i README file, make it correct.
+2. Provide instructions in README file on how would someone run this project. E.g One needs to install MSSQL database on local machine create creating db connection.
+3. Move each functions(e.g CreateAccount(Registration)) into its separate file for better readability.
+
+-  above feedback is provided by Vishal Chilate.
