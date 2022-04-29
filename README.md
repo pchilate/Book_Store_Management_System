@@ -56,5 +56,7 @@ Packages and Module: -------- 1. mysql.connector
  instructions:
  
  1. install and setup mysql database server
- 2. run
+ 2. for database connectivity run databaseconnection.py file
+ 3. all the functionalities are written in bookstrore.py
+ 4. Run Execution.py
                       
