@@ -1,7 +1,7 @@
 Project Title = "BOOK STORE MANAGEMENT SYSTEM"
 Team = Pratik P. Chilate
 
-Objective:--- The "Book Store management system " is database driven appication base on python and mysql. the object of this project is the abilty to a customer to creata their 
+Objective:--- The "Book Store management system " is database driven appication base on python and mysql. the objective of this project is the abilty to a customer to create their 
               account, and purchase books of their choice. more functionallites are listed below.
 
 functionalities:----- 1. Create Account
@@ -52,4 +52,9 @@ Packages and Module: -------- 1. mysql.connector
  User defined module: ------- 1. databaseconnection
                               2. Bookstore
                               
+                              
+ instructions:
+ 
+ 1. install and setup mysql database server
+ 2. run
                       
